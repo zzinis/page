@@ -31,3 +31,15 @@
         }
     }
 }
+
+#visual{
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+    .inner{
+        width: 1180px;
+        margin: 0 auto;
+        background: peachpuff;
+    }
+}
