@@ -27,4 +27,29 @@ a {
         margin-right: 10px;
         font: 15px/1 'arial'; }
 
+#visual {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  background: peachpuff; }
+  #visual .inner {
+    width: 1180px;
+    margin: 0 auto; }
+
+#footer {
+  width: 100%;
+  padding: 70px 0px 40px 0;
+  border-top: 1px solid #888; }
+  #footer .inner {
+    width: 1180px;
+    margin: 0 auto;
+    text-align: center; }
+    #footer .inner h1 {
+      font: bold 17px/1 'arial';
+      color: #444;
+      margin-bottom: 15px; }
+    #footer .inner .wrap .top h2 {
+      font: 15px/1 'arial';
+      margin-bottom: 5px; }
+
 /*# sourceMappingURL=style.css.map */
