@@ -58,16 +58,45 @@
         h1{
             font: bold 17px/1 'arial';
             color: #444;
-            margin-bottom: 15px;
+            margin-bottom: 25px;
         }
 
         .wrap{
+            display: flex;
             .top{
+                width: 33.333%;
                 h2{
-                    font: 15px/1 'arial';
+                    font: 16px/1 'arial';
                     margin-bottom: 5px;
                 }
             }
+            .middle{
+                width: 33.333%;
+                h2{
+                    font: 16px/1 'arial';
+                    margin-bottom: 5px;
+
+                }
+            }
+            .last{
+                width: 33.333%;
+                h2{
+                    font: 16px/1 'arial';
+                    margin-bottom: 5px;
+
+                }
+                ul{
+                    li{
+                        float: left;
+                        margin-right: 10px;
+                        a{
+                            font: bold 14px/1 'arial';
+                            color: #444;
+                        }
+                    }
+                }
+            }
         }
+        
     }
 }
