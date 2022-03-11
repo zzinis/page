@@ -11,23 +11,77 @@
         width: 1180px;
         height: 100%;
         margin: 0 auto;
+        position: relative;
 
         h1{
-            font: bold 25px/1 'arial';
-            margin-bottom: 10px;
-            margin-top: 15px;
+            position:absolute; 
+            left:0; 
+            bottom:15px; 
+
+            a{
+                font: bold 24px/1 'arial';
+                color: #444;
+            }
+
         }
 
-        ul{
+        #gnb{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+
+            &::after{
+                content: '';
+                display: block; 
+                clear: both;
+            }
 
             li{
-                float: right;
+                float: left;
                 a{
-                    color: #444;
-                    margin-right: 10px;
-                    font: 15px/1 'arial';
-                }                
+                    display: inline-block;
+                    padding: 14px 40px;
+                    font: bold 15px/1 'arial';
+                    color: #777;
+
+                    &:hover{
+                        color: #fff;
+                        background: #555;
+                    }
+                }
             }
+
+        }
+
+        .util{
+            position: absolute;
+            right: 40px;
+            top: 20px;
+
+            &::after{
+                content: '';
+                display: block;
+                clear: both;
+            }
+
+            li{
+                float: left;
+                margin-left: 20px;
+
+                a{
+                    font: 12px/1 'arial';
+                    color: #999;
+                }
+            }
+        }
+
+        .btnMo{
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            font-size: 30px;
+            color: #555;
+            display: none;
         }
     }
 }
