@@ -88,14 +88,45 @@
 
 #visual{
     width: 100%;
-    height: 450px;
+    height: calc(100vh - 120px );
     position: relative;
-    background: peachpuff;
+    background: lightblue;
 
     .inner{
         width: 1180px;
+        height: 100%;
         margin: 0 auto;
+        position: relative;
         
+        .txt{
+            width: 80%;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            
+            h1{
+                font: 120px/1 'arial';
+                color: #fff;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font: 16px/1.4 'arial';
+                color: #111;
+                margin-bottom: 60px;
+            }
+            a{
+                display: block;
+                width: 400px;
+                height: 30px;
+                border: 1px solid #bbb;
+                font: bold 11px/30px 'arial';
+                color: #fff;
+                text-align: center;
+                letter-spacing: 1px;
+            }
+        }
     }
 }
 
