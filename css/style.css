@@ -106,32 +106,37 @@ a {
     width: 1180px;
     margin: 0 auto;
     text-align: center; }
+    #footer .inner::after {
+      content: '';
+      display: block;
+      clear: both; }
     #footer .inner h1 {
-      font: bold 17px/1 'arial';
-      color: #444;
-      margin-bottom: 25px; }
-    #footer .inner .wrap {
-      display: flex; }
-      #footer .inner .wrap .top {
-        width: 33.333%; }
-        #footer .inner .wrap .top h2 {
-          font: 16px/1 'arial';
-          margin-bottom: 5px; }
-      #footer .inner .wrap .middle {
-        width: 33.333%; }
-        #footer .inner .wrap .middle h2 {
-          font: 16px/1 'arial';
-          margin-bottom: 5px; }
-      #footer .inner .wrap .last {
-        width: 33.333%; }
-        #footer .inner .wrap .last h2 {
-          font: 16px/1 'arial';
-          margin-bottom: 5px; }
-        #footer .inner .wrap .last ul li {
-          float: left;
-          margin-right: 10px; }
-          #footer .inner .wrap .last ul li a {
-            font: bold 14px/1 'arial';
-            color: #444; }
+      font: bold 24px/1 'arial';
+      color: #aaa;
+      float: left; }
+    #footer .inner ul {
+      float: right; }
+      #footer .inner ul li {
+        float: left;
+        margin-left: 20px; }
+        #footer .inner ul li a {
+          font: bold 14px/1 'arial';
+          color: #888; }
+    #footer .inner address {
+      width: 100%;
+      float: left;
+      font: 14px/1.3 'arial';
+      color: #777;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+      border-top: 1px solid #777;
+      padding-top: 20px; }
+    #footer .inner p {
+      width: 100%;
+      float: left;
+      font: 12px/1 'arial';
+      color: #888;
+      letter-spacing: 2px; }
 
 /*# sourceMappingURL=style.css.map */
