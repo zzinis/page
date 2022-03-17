@@ -218,5 +218,24 @@
             }
         }
     }
+    #visual{
+        height:calc(100vh - 101px);  
+        padding:0px 30px; 
     
+        .inner{
+            width: 100%;
+            
+            .txt{
+                width: 100%;
+                
+                h1{
+                    font-size: 14vmin;
+                }
+    
+                a{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
