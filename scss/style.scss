@@ -130,6 +130,66 @@
     }
 }
 
+
+#comment{
+    width: 100%;
+    padding: 150px 0;
+    background-color: #ddd;
+
+    .inner{
+        width: 1180px;
+        margin: 0 auto;
+
+        h1{
+            font: bold 24px/1 'arial';
+            color: #555;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        ul{
+            width: 100%;
+
+            li{
+                width: 100%;
+                border: 1px solid #444;
+                padding: 15px 25px;
+                margin-bottom: 20px;
+
+                &::after{
+                    content: '';
+                    display: block;
+                    clear: both;
+                }
+
+                a{
+                    font: 14px/1.2 'arial';
+                    color: #444;
+                    float: left;
+                }
+                span{
+                    font: 12px/1 'arial';
+                    color: #777;
+                    float: right;
+                }
+
+                &:hover{
+                    background: #444;
+
+                    a{
+                        color: #eee;
+                    }
+
+                    span{
+                        color: orange;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
 #footer{
     width: 100%;
     padding: 70px 0px 40px 0;

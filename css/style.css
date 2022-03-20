@@ -98,6 +98,44 @@ a {
         text-align: center;
         letter-spacing: 1px; }
 
+#comment {
+  width: 100%;
+  padding: 150px 0;
+  background-color: #ddd; }
+  #comment .inner {
+    width: 1180px;
+    margin: 0 auto; }
+    #comment .inner h1 {
+      font: bold 24px/1 'arial';
+      color: #555;
+      text-align: center;
+      margin-bottom: 50px; }
+    #comment .inner ul {
+      width: 100%; }
+      #comment .inner ul li {
+        width: 100%;
+        border: 1px solid #444;
+        padding: 15px 25px;
+        margin-bottom: 20px; }
+        #comment .inner ul li::after {
+          content: '';
+          display: block;
+          clear: both; }
+        #comment .inner ul li a {
+          font: 14px/1.2 'arial';
+          color: #444;
+          float: left; }
+        #comment .inner ul li span {
+          font: 12px/1 'arial';
+          color: #777;
+          float: right; }
+        #comment .inner ul li:hover {
+          background: #444; }
+          #comment .inner ul li:hover a {
+            color: #eee; }
+          #comment .inner ul li:hover span {
+            color: orange; }
+
 #footer {
   width: 100%;
   padding: 70px 0px 40px 0;
@@ -138,5 +176,48 @@ a {
       font: 12px/1 'arial';
       color: #888;
       letter-spacing: 2px; }
+
+@media screen and (max-width: 1179px) {
+  #header .inner {
+    width: 100%;
+    height: 100%; }
+    #header .inner h1 {
+      left: 20px; }
+    #header .inner #gnb {
+      display: none; }
+    #header .inner .btnMo {
+      display: block; }
+    #header .inner .util {
+      display: none; }
+
+  #visual {
+    height: calc(100vh - 101px);
+    padding: 0px 30px; }
+    #visual .inner {
+      width: 100%; }
+      #visual .inner .txt {
+        width: 100%; }
+        #visual .inner .txt h1 {
+          font-size: 14vmin; }
+        #visual .inner .txt a {
+          width: 100%; }
+
+  #footer {
+    padding: 100px 30px; }
+    #footer .inner {
+      width: 100%; }
+      #footer .inner h1 {
+        text-align: center;
+        margin-bottom: 20px; }
+      #footer .inner ul {
+        width: 100%;
+        text-align: center; }
+        #footer .inner ul li {
+          float: none;
+          display: inline-block; }
+      #footer .inner address {
+        text-align: center; }
+      #footer .inner p {
+        text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
