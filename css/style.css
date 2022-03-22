@@ -98,6 +98,23 @@ a {
         text-align: center;
         letter-spacing: 1px; }
 
+#banner {
+  width: 100%;
+  padding: 150px 0;
+  background-color: #111; }
+  #banner .inner {
+    width: 1180px;
+    margin: 0 auto; }
+    #banner .inner h1 {
+      font: bold 30px/1 'arial';
+      color: #fff;
+      text-align: center;
+      margin-bottom: 30px; }
+    #banner .inner p {
+      font: 16px/1.3 'arial';
+      color: #bbb;
+      text-align: center; }
+
 #comment {
   width: 100%;
   padding: 150px 0;
@@ -201,6 +218,11 @@ a {
           font-size: 14vmin; }
         #visual .inner .txt a {
           width: 100%; }
+
+  #comment {
+    padding: 150px 30px; }
+    #comment .inner {
+      width: 100%; }
 
   #footer {
     padding: 100px 30px; }
