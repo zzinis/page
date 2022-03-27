@@ -130,6 +130,33 @@
     }
 }
 
+#news{
+    width: 100%;
+    padding: 200px 0;
+
+    .inner{
+        width:1180px; 
+        margin:0 auto; 
+        h1{
+            font:bold 24px/1 'arial'; 
+            color:#555; 
+            text-align:center; 
+            margin-bottom:50px; 
+        }
+
+        .wrap{
+            width: 100%;
+
+            article{
+                width:280px; 
+                float:left;
+                margin-right:20px;
+            }
+        }
+
+    }
+}
+
 #brand{
     width: 100%;
     padding: 200px 0;
